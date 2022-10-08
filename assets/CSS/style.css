@@ -1,0 +1,10 @@
+
+.top{
+   text-align: center;
+    background-color: blueviolet;
+};
+.card{
+    width: 40%;
+    height: 50vh;
+    background-color: aqua;
+};
