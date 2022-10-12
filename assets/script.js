@@ -10,7 +10,7 @@ var cityDiv= document.querySelector(".Cities")
 console.log("cityname "+ cityName)
 var savedCity= JSON.parse(localStorage.getItem("weatherInfo"))
 for (let i = 0; i < savedCity.length; i++) {
-    
+    //creates new city button
 var cityBtn= document.createElement("button")
 cityBtn.innerHTML= savedCity[i]
 cityBtn.setAttribute("class", "btn btn-primary btn-sm")
